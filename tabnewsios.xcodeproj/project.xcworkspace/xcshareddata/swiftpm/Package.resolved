@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuisnackbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ZaniLuca/SwiftUISnackbar",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b3dc80d337db4560ba83968381fea95fba93ee87"
+      }
+    }
+  ],
+  "version" : 2
+}

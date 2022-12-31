@@ -11,7 +11,7 @@ import SwiftUI
 struct tabnewsiosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(searchText: "")
         }
     }
 }
