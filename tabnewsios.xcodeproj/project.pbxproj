@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B61C478295FCDD6003B39BC /* tabnewsiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61C477295FCDD6003B39BC /* tabnewsiosApp.swift */; };
+		1B61C47A295FCDD6003B39BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61C479295FCDD6003B39BC /* ContentView.swift */; };
+		1B61C47C295FCDD8003B39BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B61C47B295FCDD8003B39BC /* Assets.xcassets */; };
+		1B61C480295FCDD8003B39BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B61C47F295FCDD8003B39BC /* Preview Assets.xcassets */; };
+		1B61C48D295FCEB5003B39BC /* tabwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61C48C295FCEB5003B39BC /* tabwatchApp.swift */; };
+		1B61C48F295FCEB5003B39BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61C48E295FCEB5003B39BC /* ContentView.swift */; };
+		1B61C491295FCEB6003B39BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B61C490295FCEB6003B39BC /* Assets.xcassets */; };
+		1B61C494295FCEB6003B39BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B61C493295FCEB6003B39BC /* Preview Assets.xcassets */; };
+		1B61C497295FCEB6003B39BC /* tabwatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B61C48A295FCEB4003B39BC /* tabwatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B61C495295FCEB6003B39BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B61C46C295FCDD6003B39BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B61C489295FCEB4003B39BC;
+			remoteInfo = "tabwatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B61C49B295FCEB6003B39BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B61C497295FCEB6003B39BC /* tabwatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B61C474295FCDD6003B39BC /* tabnewsios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabnewsios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B61C477295FCDD6003B39BC /* tabnewsiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabnewsiosApp.swift; sourceTree = "<group>"; };
+		1B61C479295FCDD6003B39BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B61C47B295FCDD8003B39BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B61C47D295FCDD8003B39BC /* tabnewsios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tabnewsios.entitlements; sourceTree = "<group>"; };
+		1B61C47F295FCDD8003B39BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B61C48A295FCEB4003B39BC /* tabwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B61C48C295FCEB5003B39BC /* tabwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabwatchApp.swift; sourceTree = "<group>"; };
+		1B61C48E295FCEB5003B39BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B61C490295FCEB6003B39BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B61C493295FCEB6003B39BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B61C471295FCDD6003B39BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B61C487295FCEB4003B39BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B61C46B295FCDD6003B39BC = {
+			isa = PBXGroup;
+			children = (
+				1B61C476295FCDD6003B39BC /* tabnewsios */,
+				1B61C48B295FCEB5003B39BC /* tabwatch Watch App */,
+				1B61C475295FCDD6003B39BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B61C475295FCDD6003B39BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B61C474295FCDD6003B39BC /* tabnewsios.app */,
+				1B61C48A295FCEB4003B39BC /* tabwatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B61C476295FCDD6003B39BC /* tabnewsios */ = {
+			isa = PBXGroup;
+			children = (
+				1B61C477295FCDD6003B39BC /* tabnewsiosApp.swift */,
+				1B61C479295FCDD6003B39BC /* ContentView.swift */,
+				1B61C47B295FCDD8003B39BC /* Assets.xcassets */,
+				1B61C47D295FCDD8003B39BC /* tabnewsios.entitlements */,
+				1B61C47E295FCDD8003B39BC /* Preview Content */,
+			);
+			path = tabnewsios;
+			sourceTree = "<group>";
+		};
+		1B61C47E295FCDD8003B39BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B61C47F295FCDD8003B39BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B61C48B295FCEB5003B39BC /* tabwatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1B61C48C295FCEB5003B39BC /* tabwatchApp.swift */,
+				1B61C48E295FCEB5003B39BC /* ContentView.swift */,
+				1B61C490295FCEB6003B39BC /* Assets.xcassets */,
+				1B61C492295FCEB6003B39BC /* Preview Content */,
+			);
+			path = "tabwatch Watch App";
+			sourceTree = "<group>";
+		};
+		1B61C492295FCEB6003B39BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B61C493295FCEB6003B39BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B61C473295FCDD6003B39BC /* tabnewsios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B61C483295FCDD8003B39BC /* Build configuration list for PBXNativeTarget "tabnewsios" */;
+			buildPhases = (
+				1B61C470295FCDD6003B39BC /* Sources */,
+				1B61C471295FCDD6003B39BC /* Frameworks */,
+				1B61C472295FCDD6003B39BC /* Resources */,
+				1B61C49B295FCEB6003B39BC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B61C496295FCEB6003B39BC /* PBXTargetDependency */,
+			);
+			name = tabnewsios;
+			productName = tabnewsios;
+			productReference = 1B61C474295FCDD6003B39BC /* tabnewsios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B61C489295FCEB4003B39BC /* tabwatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B61C498295FCEB6003B39BC /* Build configuration list for PBXNativeTarget "tabwatch Watch App" */;
+			buildPhases = (
+				1B61C486295FCEB4003B39BC /* Sources */,
+				1B61C487295FCEB4003B39BC /* Frameworks */,
+				1B61C488295FCEB4003B39BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tabwatch Watch App";
+			productName = "tabwatch Watch App";
+			productReference = 1B61C48A295FCEB4003B39BC /* tabwatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B61C46C295FCDD6003B39BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1B61C473295FCDD6003B39BC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1B61C489295FCEB4003B39BC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1B61C46F295FCDD6003B39BC /* Build configuration list for PBXProject "tabnewsios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B61C46B295FCDD6003B39BC;
+			productRefGroup = 1B61C475295FCDD6003B39BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B61C473295FCDD6003B39BC /* tabnewsios */,
+				1B61C489295FCEB4003B39BC /* tabwatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B61C472295FCDD6003B39BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B61C480295FCDD8003B39BC /* Preview Assets.xcassets in Resources */,
+				1B61C47C295FCDD8003B39BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B61C488295FCEB4003B39BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B61C494295FCEB6003B39BC /* Preview Assets.xcassets in Resources */,
+				1B61C491295FCEB6003B39BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B61C470295FCDD6003B39BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B61C47A295FCDD6003B39BC /* ContentView.swift in Sources */,
+				1B61C478295FCDD6003B39BC /* tabnewsiosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B61C486295FCEB4003B39BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B61C48F295FCEB5003B39BC /* ContentView.swift in Sources */,
+				1B61C48D295FCEB5003B39BC /* tabwatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B61C496295FCEB6003B39BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B61C489295FCEB4003B39BC /* tabwatch Watch App */;
+			targetProxy = 1B61C495295FCEB6003B39BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B61C481295FCDD8003B39BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B61C482295FCDD8003B39BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1B61C484295FCDD8003B39BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tabnewsios/tabnewsios.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tabnewsios/Preview Content\"";
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luizmellodev.tabnewsios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B61C485295FCDD8003B39BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tabnewsios/tabnewsios.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tabnewsios/Preview Content\"";
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luizmellodev.tabnewsios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B61C499295FCEB6003B39BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tabwatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tabwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = luizmellodev.tabnewsios;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luizmellodev.tabnewsios.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		1B61C49A295FCEB6003B39BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tabwatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tabwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = luizmellodev.tabnewsios;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luizmellodev.tabnewsios.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B61C46F295FCDD6003B39BC /* Build configuration list for PBXProject "tabnewsios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B61C481295FCDD8003B39BC /* Debug */,
+				1B61C482295FCDD8003B39BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B61C483295FCDD8003B39BC /* Build configuration list for PBXNativeTarget "tabnewsios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B61C484295FCDD8003B39BC /* Debug */,
+				1B61C485295FCDD8003B39BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B61C498295FCEB6003B39BC /* Build configuration list for PBXNativeTarget "tabwatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B61C499295FCEB6003B39BC /* Debug */,
+				1B61C49A295FCEB6003B39BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B61C46C295FCDD6003B39BC /* Project object */;
+}
