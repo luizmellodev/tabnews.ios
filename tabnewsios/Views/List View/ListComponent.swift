@@ -29,6 +29,7 @@ struct ListComponent: View {
                         self.showSnack.toggle()
                         let impactHeavy = UIImpactFeedbackGenerator(style: .heavy)
                         impactHeavy.impactOccurred()
+                        WatchConnectivityManager.shared.send(content.title)
                         viewModel.likeContentList(content: content)
                     } label: {
                         Text("Curtir")

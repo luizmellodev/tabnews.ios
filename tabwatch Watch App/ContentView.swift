@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModelWatch: ListViewModel = ListViewModel()
+    @ObservedObject var connectivityManager: WatchConnectivityManager = ListViewModel().connectivityManager
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Text("Bem vindo(a) ao TabNews para Watch!")
+                    .font(.title3)
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 30)
+            }
+            List {
+                NavigationLink(destination: ContentList(connectivityManager: connectivityManager, viewModel: viewModelWatch)) {
+                    Text("Ver últimas notícias")
+                }
+                
+                NavigationLink(destination: LikedContent(connectivityManager: connectivityManager, viewModel: viewModelWatch)) {
+                    Text("Ver notícias curtidas")
+                }
+            }
         }
-        .padding()
+            //            Button("Hello World!", action: {
+            //                WatchConnectivityManager.shared.send("Hello World!\n\(Date().ISO8601Format())")
+            //            })
     }
 }
 

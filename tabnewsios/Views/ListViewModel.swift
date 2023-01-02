@@ -10,10 +10,9 @@ import SwiftUI
 
 class ListViewModel: ObservableObject {
     let defaults = UserDefaults.standard
-
+    @Published var connectivityManager = WatchConnectivityManager.shared
     @Published var recentContentList: [ContentModel] = []
     @Published var relevantContentList: [ContentModel] = []
-    
     @Published var likedList: [ContentModel] = []
     @Published var bodyText: String = ""
     
@@ -50,6 +49,9 @@ class ListViewModel: ObservableObject {
             let decoder = JSONDecoder()
             if let loadedContent = try? decoder.decode([ContentModel].self, from: likedContent) {
                 self.likedList = loadedContent
+                if let contentTitle = connectivityManager.notificationMessage?.title {
+                    likeConnectivityContent(title: contentTitle)
+                }
             }
         }
     }
@@ -63,7 +65,13 @@ class ListViewModel: ObservableObject {
             }
         }
     }
-    
+    func likeConnectivityContent(title: String) {
+        for oneContent in self.relevantContentList {
+            if oneContent.title == title {
+                self.likedList.append(oneContent)
+            }
+        }
+    }
     func readFile() {
         if let url = Bundle.main.url(forResource: "contents", withExtension: "json"),
            let data = try? Data(contentsOf: url) {

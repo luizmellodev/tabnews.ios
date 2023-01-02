@@ -35,6 +35,7 @@ struct ListDetailView: View {
                             }
                             else {
                                 self.showSnack.toggle()
+                                WatchConnectivityManager.shared.send(content.title)
                                 viewModel.likeContentList(content: content)
                             }
                         } label: {

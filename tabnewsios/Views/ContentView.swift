@@ -12,6 +12,7 @@ import WatchConnectivity
 
 struct ContentView: View {
     @StateObject var viewModel: ListViewModel = ListViewModel()
+    @ObservedObject var connectivityManager: WatchConnectivityManager = ListViewModel().connectivityManager
     @State var searchText: String
     @State var showSnack: Bool = false
     @State var isSearching = false
@@ -24,7 +25,7 @@ struct ContentView: View {
                     Label("Menu", systemImage: "list.dash")
                 }
             
-            LikedList(viewModel: viewModel, isViewInApp: $isViewInApp, showSnack: $showSnack)
+            LikedList(viewModel: viewModel, isViewInApp: $isViewInApp, showSnack: $showSnack, connectivityManager: connectivityManager)
                 .tabItem {
                     Label("Curtidas", systemImage: "heart.fill")
                 }

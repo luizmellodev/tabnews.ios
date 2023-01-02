@@ -11,7 +11,8 @@ struct LikedList: View {
     @ObservedObject var viewModel: ListViewModel
     @Binding var isViewInApp: Bool
     @Binding var showSnack: Bool
-
+    @ObservedObject var connectivityManager: WatchConnectivityManager
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -35,7 +36,6 @@ struct LikedList: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 60)
                             .foregroundColor(.gray)
-                        
                     }
                 } else {
                     List {
@@ -56,7 +56,6 @@ struct LikedList: View {
                                             }
                         }
                         .onDelete(perform: removeRows)
-//                        .onMove(perform: move)
                     }
                     .padding(.top, 60)
                     .refreshable {
@@ -69,10 +68,6 @@ struct LikedList: View {
             viewModel.getLikedContent()
         }
     }
-//    func move(from source: IndexSet, to destination: Int) {
-//        viewModel.recentContentList.move(fromOffsets: source, toOffset: destination)
-//    }
-    
     func removeRows(at offsets: IndexSet) {
         viewModel.likedList.remove(atOffsets: offsets)
         let encoder = JSONEncoder()
@@ -85,7 +80,9 @@ struct LikedList: View {
 
 struct LikedListView_Previews: PreviewProvider {
     static var viewModel: ListViewModel = ListViewModel()
+    static var connectivityManager = WatchConnectivityManager.shared
+    
     static var previews: some View {
-        LikedList(viewModel: viewModel, isViewInApp: .constant(true), showSnack: .constant(true))
+        LikedList(viewModel: viewModel, isViewInApp: .constant(true), showSnack: .constant(true), connectivityManager: connectivityManager)
     }
 }

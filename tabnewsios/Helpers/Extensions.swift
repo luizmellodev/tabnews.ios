@@ -18,12 +18,14 @@ import SwiftUI
 
 extension View {
     // MARK: Safe Area Value
+    #if os(iOS)
     func safeArea()->UIEdgeInsets {
         guard let window = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return .zero }
         guard let safeArea = window.windows.first?.safeAreaInsets else { return .zero }
         
         return safeArea
     }
+    #endif
 }
 public func getFormattedDate(value: String) -> String {
     let dateFormat = DateFormatter()
